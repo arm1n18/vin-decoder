@@ -12,3 +12,5 @@ npm i
 ```bash
 npm run dev
 ```
+
+VIN Decoder hosted on GitHub Pages - [VIN Decoder](https://arm1n18.github.io/vin-decoder/)
