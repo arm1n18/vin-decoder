@@ -1,0 +1,47 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 0.5rem;
+  min-height: 40px;
+  padding: 0 1rem;
+  border-radius: 0.75rem;
+
+  font-size: 1rem;
+  font-weight: 500;
+
+  border: none;
+  outline: none;
+}
+
+.symbol {
+  width: 40px;
+  padding: 0;
+}
+
+.text {
+  padding: 0 1rem;
+}
+
+.btn.primary {
+  color: #fff;
+  background-color: var(--primary);
+}
+
+.btn.primary:hover {
+  background-color: var(--hover-primary);
+}
+
+.btn.secondary {
+  color: var(--primary);
+  background-color: var(--secondary);
+}
+
+.btn.secondary:hover {
+  background-color: var(--hover-secondary);
+}
+
+.disabled {
+  cursor: not-allowed;
+}

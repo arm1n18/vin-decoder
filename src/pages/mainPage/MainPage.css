@@ -1,0 +1,65 @@
+.wrapper {
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.search-form {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+.vin-history {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.vin-block {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 0.5rem;
+    min-height: 40px;
+    padding: 0 1rem;
+    border-radius: 0.75rem;
+
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFF;
+    background-color: var(--primary);
+}
+
+.vin-block:hover {
+    background-color: var(--hover-primary);
+}
+
+.remove-vin {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #FFF;
+    border-radius: 0.5rem;
+}
+
+.remove-vin:hover {
+    fill: var(--primary);
+    background-color: #FFF;
+}
+
+.disabled {
+    cursor: not-allowed;
+}
+
+@media (max-width: 380px) {
+    .search-form {
+        flex-direction: column;
+    }
+}

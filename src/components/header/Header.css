@@ -1,0 +1,18 @@
+.header {
+    position: sticky;
+    z-index: 10;
+    width: 100%;
+    background-color: var(--secondary);
+}
+
+.header-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.header nav {
+    display: flex;
+    gap: 1rem;
+}

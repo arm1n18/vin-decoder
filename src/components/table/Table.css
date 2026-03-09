@@ -1,0 +1,54 @@
+.table-wrapper {
+    display: block;
+    box-sizing: border-box;
+    outline: 1px solid var(--secondary2);
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 100%;
+    overflow-y: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th {
+    padding: 0.5rem;
+    color: var(--primary);
+    background-color: var(--secondary2);
+}
+
+th:first-child {
+    border-radius: 0.75rem 0 0 0;
+}
+
+th:last-child {
+    border-radius: 0 0.75rem 0 0;
+}
+
+.row td {
+    padding: 0.5rem;
+}
+
+tr.odd {
+    background-color: var(--secondary);
+}
+
+tr.even {
+    background-color: #FFF;
+}
+
+.row:hover {
+    background-color: var(--secondary2);
+}
+
+.group {
+    background-color: var(--secondary2);
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+}
+
+.group td {
+    padding: 0.5rem;
+}
